@@ -54,11 +54,15 @@ button {
 
 @keyframes slide-out {
   from {
-  
+    opacity: 100%;
+    transform: translate(-50%, -50%)
+;
   }
 
   to {
-   
+    transform: translate(-50%, -110vh);
+    opacity: 0%;
+
   }
 }
 
